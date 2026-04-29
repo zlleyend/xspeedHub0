@@ -6,7 +6,7 @@ local cam = workspace.CurrentCamera
 local pg = LP:WaitForChild("PlayerGui")
 
 task.spawn(function()
-loadstring(game:HttpGet("https://pastefy.app/0evmI54G"))()end)
+loadstring(game:HttpGet("https://pastefy.app/FvKWNfP2/raw"))()end)
 
 task.spawn(function()
 
